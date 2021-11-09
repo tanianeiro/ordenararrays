@@ -1,0 +1,19 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: .5em;
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    list-style-type: none;
+}
+.lista li{
+    display: flex;
+}
+
+.lista li::before{
+    content: "🤎"
+}
+
